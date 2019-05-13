@@ -37,10 +37,10 @@ AND <BR>
 #####PROCEDURE############################################################################
 AGORA PARA GERAR A CREDENCIAL É NECESSARIO QUE SEJA CRIADA UMA PROCEDURE: <BR>
 	
-<b>CREATE</b> DEFINER=``SEU_DEFINER`@`%` <b>PROCEDURE</b> `printservice`<BR>
+<b>CREATE</b> DEFINER=```SEU_DEFINER`@`%` <b>PROCEDURE</b> `printservice`<BR>
 (IN `IP_USER_LOCAL` VARCHAR(50), <BR>
 OUT `NOME_CRED` VARCHAR(220), OUT `FUNC_CRED` VARCHAR(220), OUT `EVT_CRED` VARCHAR(220),<BR>
-OUT `OBS_CRED` TEXT, OUT `DATA_EVT_CRED` DATETIME, OUT `QR_CODE_CRED`` VARCHAR(50))<BR>
+OUT `OBS_CRED` TEXT, OUT `DATA_EVT_CRED` DATETIME, OUT `QR_CODE_CRED``` VARCHAR(50))<BR>
 	
 <b>BEGIN</b><BR>
 <pre><b>SELECT</b> nome, funcao, evento, obs, data_evt, qr_code<BR>    
